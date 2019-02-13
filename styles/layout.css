@@ -385,22 +385,27 @@ table a, #comments a{background-color:inherit;}
 	.font-x3{font-size:1.6rem;}
 }
 
-#mainheader{
-	background-image: url("C:\Users\fmi\Desktop\exam-std-4-master\images\demo\backgrounds\01.png");
+.background-image{
+	background-image:url('../images/demo/backgrounds/01.png');
 }
-#mainheader h2{
-	color: orange;
-} 
-#mainheader span{
-	color: lightblue;
+
+.mainbodyp1{
+text-align: justify;font-family: Comic Sans MS;
 }
-p{
-	text-align: justify;
+.mainbodyp2{
+	text-align: justify;font-family: Comic Sans MS;font-style: italic;font-weight:600;
 }
-.nospace{
-	display: none;
-}
+<<<<<<< HEAD
 .overlay{
 	background-image:url("C:\Users\fmi\Desktop\exam-std-4-master\images\demo\backgrounds\02.png");
 } 
+=======
 
+.comments{
+background-color: silver;	
+}
+>>>>>>> a3d6ee85b959d347d9cf97d47e3f51472c1da75f
+
+.heading a{
+	color: silver;
+}
